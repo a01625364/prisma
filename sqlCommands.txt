@@ -1,0 +1,14 @@
+select * from DM_Venues 
+    inner join DM_Regions DR on DM_Venues.region_id = DR.region_id 
+    inner join DM_Cities DC on DM_Venues.city_id = DC.city_id 
+    inner join DM_States DS on DC.state_id = DS.state_id
+
+
+select * from DM_Venues 
+    inner join DM_Regions DR on DM_Venues.region_id = DR.region_id 
+    inner join DM_Cities DC on DM_Venues.city_id = DC.city_id 
+    inner join DM_States DS on DC.state_id = DS.state_id
+    
+
+select * from DM_Venues 
+    inner join DM_Verticals DV on DM_Venues.vertical_id = DV.vertical_id
