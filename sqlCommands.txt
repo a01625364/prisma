@@ -25,3 +25,11 @@ select DM_Venues.name, DM_Venues.postal_code, DV.name, DB.name, DC.name , DCi.na
     inner join DM_Cities DCi on DM_Venues.city_id = DCi.city_id
     inner join DM_States DS on DCi.state_id = DS.state_id
     inner join FT_Nights FN on DM_Venues.venue_id = FN.venue_id
+
+select DM_Venues.name, DM_Venues.postal_code, DV.name, DB.name, DC.name , DCi.name, DS.name from DM_Venues
+    inner join DM_Verticals DV on DM_Venues.vertical_id = DV.vertical_id
+    inner join DM_Brands DB on DM_Venues.brand_id = DB.brand_id
+    inner join DM_Chains DC on DB.chain_id = DC.chain_id
+    inner join DM_Cities DCi on DM_Venues.city_id = DCi.city_id
+    inner join DM_States DS on DCi.state_id = DS.state_id
+
