@@ -30,3 +30,5 @@ yarn-error.log*
 .env.production.local
 
 **/*.twbr
+Act2_4_ML_for_TimeSeries_(Students).ipynb
+Act2_3_Costos_de_casas.ipynb
