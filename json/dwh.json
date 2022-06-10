@@ -1,5 +1,4 @@
 [
-  // Hotels to Brands
   {
     "source": "Hotel Chihuahua Tecnológico Norte",
     "value": 105,
@@ -205,7 +204,6 @@
     "value": 155,
     "target": "ExHacienda San Xavier"
   },
-  // Brands to Chains
   { "source": "-", "value": 105, "target": "-" },
   { "source": "AC", "value": 348, "target": "Marriott" },
   { "source": "Aloft", "value": 674, "target": "Marriott" },
