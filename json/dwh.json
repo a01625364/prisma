@@ -1,0 +1,228 @@
+[
+  // Hotels to Brands
+  {
+    "source": "Hotel Chihuahua Tecnológico Norte",
+    "value": 105,
+    "target": "-"
+  },
+  {
+    "source": "Hampton by Hilton Chihuahua",
+    "value": 190,
+    "target": "Hampton"
+  },
+  {
+    "source": "Hampton by Hilton Hermosillo",
+    "value": 151,
+    "target": "Hampton"
+  },
+  {
+    "source": "Hampton by Hilton Monterrey Galerías Obispado",
+    "value": 223,
+    "target": "Hampton"
+  },
+  {
+    "source": "Hampton by Hilton Querétaro",
+    "value": 178,
+    "target": "Hampton"
+  },
+  { "source": "Hampton by Hilton Reynosa", "value": 145, "target": "Hampton" },
+  { "source": "Hampton by Hilton Saltillo", "value": 227, "target": "Hampton" },
+  {
+    "source": "Hampton by Hilton Torreón Aeropuerto",
+    "value": 151,
+    "target": "Hampton"
+  },
+  {
+    "source": "City Express Chihuahua",
+    "value": 104,
+    "target": "City Express"
+  },
+  {
+    "source": "Courtyard by Marriott Chihuahua",
+    "value": 152,
+    "target": "Courtyard"
+  },
+  { "source": "Aloft Guadalajara", "value": 142, "target": "Aloft" },
+  {
+    "source": "AC Hoteles by Marriott Guadalajara Expo",
+    "value": 180,
+    "target": "AC"
+  },
+  {
+    "source": "Fairfield Inn & Suites by Marriott Coatzacoalcos",
+    "value": 180,
+    "target": "Fairfield"
+  },
+  { "source": "Marriott Puebla", "value": 296, "target": "Marriott" },
+  { "source": "Aloft Celaya", "value": 192, "target": "Aloft" },
+  {
+    "source": "Courtyard by Marriott Saltillo",
+    "value": 180,
+    "target": "Courtyard"
+  },
+  { "source": "The Westin Monterrey Valle", "value": 174, "target": "Westin" },
+  { "source": "JW Monterrey", "value": 250, "target": "JW Marriott" },
+  { "source": "Aloft Guadalajara Punto Sur", "value": 175, "target": "Aloft" },
+  { "source": "JW Guadalajara", "value": 191, "target": "JW Marriott" },
+  { "source": "Tribute Tulum", "value": 102, "target": "Tribute" },
+  {
+    "source": "Courtyard by Marriot Puebla (Descontinuado)",
+    "value": 154,
+    "target": "Courtyard"
+  },
+  { "source": "AC Hotel by Marriot Santa Fe", "value": 168, "target": "AC" },
+  { "source": "Aloft Playa del Carmen", "value": 165, "target": "Aloft" },
+  {
+    "source": "Courtyard by Marriot Puebla",
+    "value": 154,
+    "target": "Courtyard"
+  },
+  {
+    "source": "Wyndham Garden Celaya",
+    "value": 150,
+    "target": "Wyndham Garden"
+  },
+  {
+    "source": "Wyndham Garden Irapuato",
+    "value": 102,
+    "target": "Wyndham Garden"
+  },
+  { "source": "Wyndham Garden León", "value": 126, "target": "Wyndham Garden" },
+  {
+    "source": "Wyndham Garden Silao",
+    "value": 143,
+    "target": "Wyndham Garden"
+  },
+  {
+    "source": "Wyndham Garden Playa del Carmen",
+    "value": 196,
+    "target": "Wyndham Garden"
+  },
+  {
+    "source": "Microtel Inn & Suites by Wyndham Chihuahua",
+    "value": 108,
+    "target": "Microtel"
+  },
+  {
+    "source": "Wyndham Garden Guadalajara Andares",
+    "value": 186,
+    "target": "Wyndham Garden"
+  },
+  {
+    "source": "Microtel Inn & Suites by Wyndham Ciudad Juárez",
+    "value": 113,
+    "target": "Microtel"
+  },
+  {
+    "source": "Wyndham Garden Monterrey Valle Real",
+    "value": 85,
+    "target": "Wyndham Garden"
+  },
+  {
+    "source": "Microtel Inn & Suites by Wyndham Toluca",
+    "value": 129,
+    "target": "Microtel"
+  },
+  {
+    "source": "Holiday Inn & Suites Guadalajara Centro Histórico",
+    "value": 90,
+    "target": "Holiday Inn"
+  },
+  {
+    "source": "Holiday Inn Express Guadalajara Autónoma",
+    "value": 199,
+    "target": "Holiday Inn Express"
+  },
+  {
+    "source": "Staybridge Suites Guadalajara Expo",
+    "value": 117,
+    "target": "Staybridge Suites"
+  },
+  {
+    "source": "Holiday Inn Ciudad Juárez",
+    "value": 196,
+    "target": "Holiday Inn"
+  },
+  {
+    "source": "Holiday Inn Express & Suites Ciudad Juárez",
+    "value": 182,
+    "target": "Holiday Inn Express"
+  },
+  {
+    "source": "Holiday Inn México Coyoacán",
+    "value": 214,
+    "target": "Holiday Inn"
+  },
+  {
+    "source": "Crowne Plaza Monterrey Aeropuerto",
+    "value": 219,
+    "target": "Crowne Plaza"
+  },
+  {
+    "source": "Holiday Inn Express & Suites Monterrey Aeropuerto",
+    "value": 198,
+    "target": "Holiday Inn Express"
+  },
+  {
+    "source": "Holiday Inn Monterrey Valle",
+    "value": 198,
+    "target": "Holiday Inn"
+  },
+  {
+    "source": "Holiday Inn Reynosa Industrial Poniente",
+    "value": 95,
+    "target": "Holiday Inn"
+  },
+  {
+    "source": "Holiday Inn Express Saltillo",
+    "value": 180,
+    "target": "Holiday Inn Express"
+  },
+  {
+    "source": "Holiday Inn Tampico Altamira",
+    "value": 203,
+    "target": "Holiday Inn"
+  },
+  {
+    "source": "Holiday Inn Express Toluca Tollocan",
+    "value": 127,
+    "target": "Holiday Inn Express"
+  },
+  {
+    "source": "Holiday Inn Express & Suites Toluca Aeropuerto",
+    "value": 268,
+    "target": "Holiday Inn Express"
+  },
+  {
+    "source": "Holiday Inn & Suites Mérida La Isla",
+    "value": 93,
+    "target": "Holiday Inn"
+  },
+  { "source": "Casa Grande Delicias", "value": 88, "target": "Casa Grande" },
+  { "source": "Casa Grande Chihuahua", "value": 115, "target": "Casa Grande" },
+  {
+    "source": "ExHacienda San Xavier",
+    "value": 155,
+    "target": "ExHacienda San Xavier"
+  },
+  // Brands to Chains
+  { "source": "-", "value": 105, "target": "-" },
+  { "source": "AC", "value": 348, "target": "Marriott" },
+  { "source": "Aloft", "value": 674, "target": "Marriott" },
+  { "source": "Casa Grande", "value": 203, "target": "Prisma" },
+  { "source": "City Express", "value": 104, "target": "City Express" },
+  { "source": "Courtyard", "value": 640, "target": "Marriott" },
+  { "source": "Crowne Plaza", "value": 219, "target": "IHG" },
+  { "source": "ExHacienda San Xavier", "value": 155, "target": "Prisma" },
+  { "source": "Fairfield", "value": 180, "target": "Marriott" },
+  { "source": "Hampton", "value": 1265, "target": "Hilton" },
+  { "source": "Holiday Inn", "value": 1089, "target": "IHG" },
+  { "source": "Holiday Inn Express", "value": 1154, "target": "IHG" },
+  { "source": "JW Marriott", "value": 441, "target": "Marriott" },
+  { "source": "Marriott", "value": 296, "target": "Marriott" },
+  { "source": "Microtel", "value": 350, "target": "Wyndham" },
+  { "source": "Staybridge Suites", "value": 117, "target": "IHG" },
+  { "source": "Tribute", "value": 102, "target": "Marriott" },
+  { "source": "Westin", "value": 174, "target": "Marriott" },
+  { "source": "Wyndham Garden", "value": 988, "target": "Wyndham" }
+]
