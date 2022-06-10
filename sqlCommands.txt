@@ -36,3 +36,34 @@ select DM_Venues.name, DM_Venues.postal_code, DV.name, DB.name, DC.name , DCi.na
 select DV.name, FT_Nights.rooms_occupied, DV.available_rooms, FT_Nights.rooms_revenue, DBD.business_date, DBD.week_day_name, DBD.day, DBD.month, DBD.year, DV.postal_code from FT_Nights 
     inner join DM_Business_Dates DBD on FT_Nights.business_date_id = DBD.business_date_id 
     inner join DM_Venues DV on FT_Nights.venue_id = DV.venue_id
+
+select DV.name, FT_Nights.rooms_occupied, DV.available_rooms, FT_Nights.rooms_revenue, DBD.business_date, DBD.week_day_name, DBD.day, DBD.month, DBD.year, DV.postal_code 
+from FT_Nights 
+inner join DM_Business_Dates DBD on FT_Nights.business_date_id = DBD.business_date_id 
+inner join DM_Venues DV on FT_Nights.venue_id = DV.venue_id 
+where FT_Nights.rooms_occupied <= FT_Nights.rooms_available 
+and not FT_Nights.venue_id = 51 
+and not FT_Nights.venue_id = 54
+
+select DV.name, FT_Nights.rooms_occupied, DV.available_rooms, FT_Nights.rooms_revenue, DBD.business_date, DBD.week_day_name, DBD.day, DBD.month, DBD.year, DV.postal_code
+    from FT_Nights
+    inner join DM_Business_Dates DBD on FT_Nights.business_date_id = DBD.business_date_id
+    inner join DM_Venues DV on FT_Nights.venue_id = DV.venue_id
+    inner join DM_Cities DC on DV.city_id = DC.city_id
+    inner join DM_States DS on DC.state_id = DS.state_id
+    inner join DM_Countries D on DS.country_id = D.country_id
+    where FT_Nights.rooms_occupied <= FT_Nights.rooms_available
+    and not FT_Nights.venue_id = 51
+    and not FT_Nights.venue_id = 54
+
+select DV.name, FT_Nights.rooms_occupied, DV.available_rooms, FT_Nights.rooms_revenue, DBD.business_date, DBD.week_day_name, DBD.day, DBD.month, DBD.year, DV.postal_code, D.name 
+    from FT_Nights 
+    inner join DM_Business_Dates DBD on FT_Nights.business_date_id = DBD.business_date_id 
+    inner join DM_Venues DV on FT_Nights.venue_id = DV.venue_id 
+    inner join DM_Cities DC on DV.city_id = DC.city_id 
+    inner join DM_States DS on DC.state_id = DS.state_id 
+    inner join DM_Countries D on DS.country_id = D.country_id 
+    where FT_Nights.rooms_occupied <= FT_Nights.rooms_available 
+    and D.name = 'México' 
+    and not FT_Nights.venue_id = 51 
+    and not FT_Nights.venue_id = 54
